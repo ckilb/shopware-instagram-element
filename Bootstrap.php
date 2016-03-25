@@ -17,10 +17,12 @@ require_once(__DIR__ . '/Services/InstagramService.php');
  * im richtigen Verzeichnis liegt ("Local/Frontend" bzw. "Local/Backend"). Ein Einkaufswelt-Element ist immer vom
  * Typ "Backend", auch wenn es zum Teil natürlich auch Code zur Ausgabe im Frontend beinhaltet.
  *
- * - Verzeichnis, in dem das Plugin liegt (in diesem Fall "InstagramEmotionElement").
+ * - Verzeichnis, in dem das Plugin liegt (in diesem Fall "CkdotInstagramEmotionElement").
  *
  * ACHTUNG: Auch hier auf das richtige Verzeichnis achten. Dieses Plugin muss beispielsweise im Pfad
- * engine/Shopware/Plugins/Local/Backend/InstagramEmotionElement liegen.
+ * engine/Shopware/Plugins/Local/Backend/CkdotnstagramEmotionElement liegen.
+ *
+ * - "_Bootstrap"
  *
  * TIPP: Es bietet sich eventuell an, das Plugin in einem eigenen Repository-Verzeichnis zu entwickeln und im Pfad
  * engine/Shopware/Plugins/Local/Backend/ einen Symlink mit dem Linux-Befehl
@@ -29,7 +31,7 @@ require_once(__DIR__ . '/Services/InstagramService.php');
  *
  * @author Christian Kilb
  */
-class Shopware_Plugins_Backend_InstagramEmotionElement_Bootstrap extends Shopware_Components_Plugin_Bootstrap
+class Shopware_Plugins_Backend_CkdotInstagramEmotionElement_Bootstrap extends Shopware_Components_Plugin_Bootstrap
 {
     /**
      * Der Name des Templates gibt an, in welchem Verzeichnis unsere Template-Dateien liegen.
