@@ -5,7 +5,7 @@ use Shopware\Models\Emotion\Library\Component;
 require_once(__DIR__ . '/Services/InstagramService.php');
 
 /**
- * Class Shopware_Plugins_Backend_InstagramEmotionElement_Bootstrap
+ * Class Shopware_Plugins_Backend_CkdotInstagramEmotionElement_Bootstrap
  *
  * Der Klassenname der Bootstrap-Klasse besteht aus:
  *
@@ -20,7 +20,7 @@ require_once(__DIR__ . '/Services/InstagramService.php');
  * - Verzeichnis, in dem das Plugin liegt (in diesem Fall "CkdotInstagramEmotionElement").
  *
  * ACHTUNG: Auch hier auf das richtige Verzeichnis achten. Dieses Plugin muss beispielsweise im Pfad
- * engine/Shopware/Plugins/Local/Backend/CkdotnstagramEmotionElement liegen.
+ * engine/Shopware/Plugins/Local/Backend/CkdotInstagramEmotionElement liegen.
  *
  * - "_Bootstrap"
  *
